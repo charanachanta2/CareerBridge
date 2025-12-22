@@ -1,7 +1,78 @@
-# Node modules
+# Node / JavaScript
 node_modules/
 client/node_modules/
 server/node_modules/
-.github
+dist/
+client/dist/
+server/dist/
+.vite/
+build/
 
-copilot-instructions.md
+# Environment files (should not be committed)
+.env
+.env.local
+.env.*.local
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# macOS
+.DS_Store
+Thumbs.db
+
+# IDEs / editors
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.eggs/
+dist/
+build/
+venv/
+.venv/
+ENV/
+env/
+pip-wheel-metadata/
+
+# Jupyter
+.ipynb_checkpoints
+
+# Coverage
+coverage/
+.coverage
+htmlcov/
+
+# Uploaded files / data
+uploads/
+data/*.sqlite3
+tmp.json
+cookies.txt
+
+# Temp and swap files
+*.swp
+*.swo
+*.bak
+*.tmp
+*.old
+*.orig
+*.rej
+
+# Keys and credentials
+*.pem
+
+# Misc
+*.class
